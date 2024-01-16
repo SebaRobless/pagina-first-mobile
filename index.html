@@ -3,44 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="version2.css">
   <title>Document</title
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Roboto_Slab.zip" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-  <nav class="nav">
-    <div class="nav_logo">
-      <a href="#" class="nav_logo__link"> 
-        <img src="img/codoacodo.png" alt="logo codo a codo" class="nav_logo__img">
-        <span class="logo_span">Conf Bs As</span>
-      <a>
-    </div>
+  <header>
+    <nav class="nav">
+      <div class="nav_logo">
+        <a href="#" class="nav_logo__link"> 
+          <img src="img/codoacodo.png" alt="logo codo a codo" class="nav_logo__img">
+          <span class="logo_span">Conf Bs As</span>
+        <a>
+      </div>
 
-    <button class="nav_button">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg_menu" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-      </svg>
-    </button>
+      <button class="nav_button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg_menu" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+      </button>
 
-    <div class="nav_links nav_links_active">
-      <ul class="nav_ul">
-        <a href="#" class="nav_li__a">
-          <li class="nav_li nav_li1">La conferencia</li>
-        </a>
-        <a href="#" class="nav_li__a">
-          <li class="nav_li">Los oradores</li>
-        </a>
-        <a href="#" class="nav_li__a">
-          <li class="nav_li">Lugar y fecha</li>
-        </a>
-        <a href="#" class="nav_li__a">
-          <li class="nav_li">Comprar tickets</li>
-        </a>
-      </ul>
-    </div>
-  </nav>
+      <div class="nav_links nav_links_active">
+        <ul class="nav_ul">
+          <a href="#" class="nav_li__a">
+            <li class="nav_li nav_li1">La conferencia</li>
+          </a>
+          <a href="#" class="nav_li__a">
+            <li class="nav_li">Los oradores</li>
+          </a>
+          <a href="#" class="nav_li__a">
+            <li class="nav_li">Lugar y fecha</li>
+          </a>
+          <a href="#" class="nav_li__a">
+            <li class="nav_li"> <span class="nav_li__span">Comprar tickets</span></li>
+          </a>
+        </ul>
+      </div>
+    </nav>
 
-  <main>
+  
     <!-- inicio carousel -->
     <div class="carrousel">
       <div class="carrousel-imgs">
@@ -56,11 +60,107 @@
       <div class="container-buton container-buton-left">
         <svg viewBox="0 0 1024 1024" class="svg-flecha"  xmlns="http://www.w3.org/2000/svg"> <style>.svg-flecha{fill:rgba(219, 216, 216, 0.5)}</style><path d="m752.145 0c8.685 0 17.572 3.434 24.237 10.099 13.33 13.33 13.33 35.143 0 48.473l-456.256 456.458 449.591 449.591c13.33 13.33 13.33 35.144 0 48.474s-35.142 13.33-48.472 0l-473.827-473.827c-13.33-13.33-13.33-35.144 0-48.474l480.492-480.694c6.665-6.665 15.55-10.098 24.236-10.098z"/></svg>  
       </div>
-      
+      <div class="carrousel-description">
+        <h1 class="carrousel-description__h1">Conf Bs As</h1>
+        <p class="carrousel-description__p">Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que estan creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+        <div class="carrousel-description__container-buttons">
+          <button class="container-buttons__button button-oradores">Quiero ser orador</button>
+          <button class="container-buttons__button button_compra-tickets">Comprar tickets</button>
+        </div>
+      </div>
     </div>
     <!-- fin carousel -->
+  </header>
     
+  <main>
+    <!-- inicio cards -->
+    <section>
+      <h3 class="title-cards">Conoce a los <span class="title-cards__span">ORADORES</span></h3>
+      <div class="container-cards">
+        <article class="card1 card">
+          <img class="img-card img-billGates" src="img/bill.jpg" alt="Bill Gates">
+          <div class="card__container-description">
+            <div class="container-description__contenedor-etiquetas">
+              <em class="contenedor-etiquetas__etiqueta contenedor-etiquetas__etiqueta-js">Javascript</em>
+              <em class="contenedor-etiquetas__etiqueta contenedor-etiquetas__etiqueta-react">React</em>
+            </div>
+            <h5 class="container-description__h5">Bill Gates</h5>
+            <p class="container-description__p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ex, recusandae ab dignissimos voluptas nobis laboru
+            </p>
+          </div>
+        </article>
+        <article class="card2 card">
+          <img class="img-card img-steveJobs" src="img/steve.jpg" alt="Steve Jobs">
+          <div class="card__container-description">
+            <div class="container-description__contenedor-etiquetas">
+              <em class="contenedor-etiquetas__etiqueta contenedor-etiquetas__etiqueta-js">Javascript</em>
+              <em class="contenedor-etiquetas__etiqueta contenedor-etiquetas__etiqueta-react">React</em>
+            </div>
+            <h5 class="container-description__h5">Steve Jobs</h5>
+            <p class="container-description__p">
+              Lorem ipsum dolor asdas feed sit amet consectetur adipisicing elit. Suscipit ex, recusandae ab dignissimos voluptas nobis laboru
+            </p>
+          </div>
+        </article>
+        <article class="card3 card">   
+          <img class="img-card img-ada" src="img/ada.jpeg" alt="Ada">
+          <div class="card__container-description">
+            <div class="container-description__contenedor-etiquetas">
+              <em class="contenedor-etiquetas__etiqueta contenedor-etiquetas__etiqueta-startups">Startups</em>
+              <em class="contenedor-etiquetas__etiqueta contenedor-etiquetas__etiqueta-negocios">Negocios</em>
+            </div>
+            <h5 class="container-description__h5">Ada Lovelace</h5>
+            <p class="container-description__p">
+              Lorem ipsum dolor sit amet consectetur adipisicingipit ex, recusandae ab dignissimos voluptas nobis laboru
+            </p>
+          </div>
+        </article>
+      </div>
+    </section> 
+    <!-- fin cards -->
+
+    <!-- inicio section: Bs As - Octubre -->
+    <section class="container-sectionOctubre">
+      <div class="container-sectionOctubre__container-img">
+        <img class="container-img__img" src="img/honolulu.jpg" alt="bs as">
+      </div>
+      <div class="container-sectionOctubre__container-info">
+        <h3 class="container-info__h3">Bs As - Octubre</h3>
+        <p class="container-info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deserunt porro nisi autem doloribus, amet error deleniti reiciendis magnam ipsum repellendus, quidem voluptatibus id eos! Et, explicabo. Molestias, dignissimos voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia praesentium odio tempore necessitatibus, nobis soluta officiis veritatis sunt sit dolore sapiente reiciendis, optio labore eos incidunt quos eum, nam exercitationem!</p>
+        <button class="container-info__button">conoce mas</button>
+      </div>
+    </section>
+    <!-- final section: Bs As - Octubre -->
+
+    <!-- inicio formulario -->
+    <section class="section-form">
+      <div class="section-form__contenedor-encabezado">
+        <h3 class="contenedor-encabezado__h3">conviertete en un <span>ORADOR</span></h3>
+        <p class="contenedor-encabezado__p">Anotate como orador para dar una charla ignite. Cuentanos de que quiere hablar!</p>
+      </div>
+      <form class="section-form__form" action="#" method="#">
+        <div class="form__contenedor-input">
+          <input type="text" class="contenedor-input__input-form contenedor-input__input-form1" name="nombre" placeholder="Nombre">
+          <input type="text" class="contenedor-input__input-form contenedor-input__input-form2" name="apellido" placeholder="Apellido">
+        </div>
+        <textarea name="tema" placeholder="Sobre que quieres hablar?" class="form__textarea"></textarea>
+        <button class="button-form"> Enviar</button>
+      </form>
+    </section>
+    <!-- fin formulario -->
   </main>
+
+  <footer>
+    <div class="contenedor-links">
+      <a class="links-footer link-footer1" href="#">Preguntas frecuentes</a>
+      <a class="links-footer link-footer2" href="#">Contactanos</a>
+      <a class="links-footer link-footer3" href="#">Prensa</a>
+      <a class="links-footer link-footer4" href="#">Terminos y condiciones</a>
+      <a class="links-footer link-footer5" href="#">Privacidad</a>
+      <a class="links-footer link-footer6" href="#">Estudiantes</a>
+    </div>
+  </footer>
   <script src="navJS.js"></script>
   <script src="carrousel.js"></script>
 </body>
